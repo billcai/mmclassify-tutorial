@@ -23,4 +23,4 @@ Then, assuming that you have [nvidia-docker](https://docs.nvidia.com/datacenter/
 ```
 docker run --name mmclassify-api -p 8000:8000 --gpus all mmclassify-api:latest
 ```
-You would be able to see the OpenAPI docs and test your API at [http://localhost:8000/docs].
+You would be able to see the OpenAPI docs and test your API at [http://localhost:8000/docs](http://localhost:8000/docs).
