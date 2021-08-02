@@ -8,7 +8,7 @@ train {
       "DEBIAN_FRONTEND=noninteractive apt-get install -y python3-opencv",
       "pip install bdrk==0.9.1",
       "pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.8.0/index.html",
-      "git clone https://github.com/open-mmlab/mmclassification.git && cd mmclassification && pip install -e . & cd .."
+      "git clone https://github.com/open-mmlab/mmclassification.git && cd mmclassification && pip install -e . && cd .."
     ]
     script = [{sh = ["python task_train.py"]}]
     resources {
